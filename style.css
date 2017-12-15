@@ -1,0 +1,40 @@
+section#entete{
+	background:url(assets/fondTitre.jpg);
+	width:100%;
+	text-align:center;
+	font-size:150%;
+	color:white;
+	display:inline-block;
+}
+
+ section#menu{
+	background-color:DodgerBlue;
+ }
+ 
+ section#menu>table{
+	width:100%;
+	text-align:center;
+ }
+ 
+ section#menu>table a{
+	 text-decoration:none;
+	 color:white;
+ }
+ 
+ section#promotion{
+	 border:2px solid red;
+	 margin-top:50px;
+	 width:30%;
+ }
+ 
+ section#promotion>h2{
+	 background-color:red;
+	 color:white;
+	 position:relative; top:-22px;
+	 font-variant:SMALL-CAPS;
+	 text-align:center;
+ }
+  
+section#promotion>img{
+	width:30%;
+}
