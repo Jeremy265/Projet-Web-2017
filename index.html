@@ -3,34 +3,121 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
 		<title>Le mauvais centre</title>
 	</head>
-	
 	<body>
-		<section id="entete">
-			<h1>Le mauvais centre !</h1>
-			<h2>Le site internet spécialisé dans le tire-bouchon et le décapsuleur</h2>
-		</section><section id="menu">
+		<section id="header">
+			<h1>Bienvenue sur le site du mauvais centre !</h1>
+			<h2>Boutique en ligne spécialisée dans le tire-bouchon et le décapsuleur</h2>
+		</section>
+			<div class="panier">
+				<a href="panier.html" class="link">
+					<img src="assets/images/panier.png" class="logoHeader" alt="image panier">
+					<div>Mon panier</div><div class="price">0.00€</div>
+				</a>
+			</div><div class="compte">
+				<a href="" class="link">
+						<img src="assets/images/bonhomme.jpg" class="logoHeader" alt="image bonhomme compte">
+						<div>Mon compte</div>
+						<div>Se connecter</div>
+				</a>
+			</div>
+		<div id="menu">
 			<table>
 				<tr>
-					<td><a href="index.html">Accueil</a></td>
-					<td><a href="catalogue.html">Catalogue<a></td>
-					<td><a href="panier.html">Panier</a></td>
-					<td><form action="article.html">
-						<input name="search" type="text" placeholder="Rechercher"><a href="article.html">Q</a></td>
-				</tr>
+					<td>
+						<div id="accueil">
+							<a href="index.html" class="link">Accueil</a>
+							<br>
+							<br>
+							<a href="" class="link">Les bons plans de la Noël !</a>
+							<br>
+							<a href="" class="link">Les bons plans de la semaine</a>
+							<br>
+							<a href="" class="link">Les bons plans du mois</a>
+						</div>
+					</td><td>
+						<div id="tireBouchon">
+							<a href="" class="link">Notre sélection de tire-bouchon</a>
+							<br>
+							<br>
+							<a href="" class="link">En bois</a>
+							<br>
+							<a href="" class="link">En acier</a>
+							<br>
+							<a href="" class="link">Personnalisé</a>
+							<br>
+							<a href="" class="link">Haut de gamme</a>
+							<br>
+							<a href="" class="link">Milieu de gamme</a>
+							<br>
+							<a href="" class="link">Bas de gamme</a>
+						</div>
+					</td><td>
+						<div id="decapsuleur">
+							<a href="" class="link">Notre sélection de décapsuleurs</a>
+							<br>
+							<br>
+							<a href="" class="link">En bois</a>
+							<br>
+							<a href="" class="link">En acier</a>
+							<br>
+							<a href="" class="link">Personnalisé</a>
+							<br>
+							<a href="" class="link">Haut de gamme</a>
+							<br>
+							<a href="" class="link">Milieu de gamme</a>
+							<br>
+							<a href="" class="link">Bas de gamme</a>
+						</div>
+					</td><td>
+						<div id="catalogue">
+							<a href="recherche.html" class="link">Catalogue</a>
+							<br>
+							<br>
+							<a href="article.html" class="link">Le coup de coeur de la semaine</a>
+							<br>
+							<a href="" class="link">Tous nos produits</a>
+							<br>
+							<a href="" class="link">Tous les tires-bouchon</a>
+							<br>
+							<a href="" class="link">Tous les décapsuleurs</a>
+							<br>
+							<a href="" class="link">Tous nos services</a>
+							<br>
+						</div>
+					</td><td>
+					<form action="recherche.html">
+						<div><img src="assets/images/loupe.png" alt="image loupe rechercher"></div>
+						<input name="search" type="text" placeholder="Rechercher un produit ou une référence..."><a href="article.html"></a>
+					</form></td>
+					</tr>
 			</table>
-		</section><section id="promotion">
+		</div>
+		<section id="promotion">
 			<h2>Bons plans de la semaine</h2>
 				<h3>Pour Noël, découvrez notre sélection de tire-bouchons en bois à -2% !</h3>
-					<img src="assets/tireBouchonBois.jpg" alt="Selection de tires bouchons en bois">
+					<img src="assets/images/tireBouchonBois.jpg" alt="Selection de tires bouchons en bois">
 				<h3>Cette semaine uniquement, faites plaisir à vos proches en leur offrant le tout nouveau décapsuleur porte-clef</h3> 
-					<img src="assets/decapsuleurPorteCle.jpg" alt="Decapsuleur porte clé">
+					<img src="assets/images/decapsuleurPorteCle.jpg" alt="Decapsuleur porte clé">
 		</section>
 		<footer>
-			<p> En savoir plus </p>
-			<a href="quisommesnous.html">Qui sommes nous?</a>
+			<table>
+				<tr>
+					<td><a href="" class="link">Tous nos produits</a></td>
+					<td><a href="" class="link">Qui sommes nous?</a></td>
+					<td><a href="" class="link">Moyens de paiements</a></td>
+				</tr><tr>
+					<td><a href="" class="link">Nos offres et promotions</a></td>
+					<td><a href="" class="link">Nous contacter</a></td>
+					<td><a href="" class="link">Livraisons</a></td>
+				</tr><tr>
+					<td><a href="" class="link">Les nouveautés</a></td>
+					<td><a href="" class="link">FAQ</a></td>
+					<td><a href="" class="link">Conditions générales de ventes</a></td>
+				</tr>
+			</table>
 		</footer>
 	</body>
 </html>

@@ -1,0 +1,167 @@
+/* ACCUEIL */
+
+body{
+	margin: 0;
+}
+
+a.link{
+	 text-decoration:none;
+	 color:white;
+ }
+ 
+a:hover{
+	text-decoration:underline;
+}
+
+#header{
+	background:Navy;
+	width:100%;
+	text-align:center;
+	color:white;
+	text-shadow: 0 0 4px black;
+	display:inline-block;
+}
+
+#header>h1{
+	font-size:300%;
+	display:inline;
+}
+
+.logoHeader{
+	width:20%;
+	float:left;
+	margin:5px;
+}
+.compte div+div, .panier div+div{
+	font-size:small;
+}
+.compte, .panier{
+	position:relative; top:-100px;
+	float:right;
+	width:10%;
+	font-size:medium;
+}
+.price{
+	color:yellow;
+	font-weight:bold;
+}
+
+#menu table{
+	position:relative; top:-48px;
+	background-color:DodgerBlue;
+	text-align:left;
+	width:100%;
+}
+#menu a{
+	margin-left:100px;
+}
+#accueil, #tireBouchon, #decapsuleur, #catalogue{
+	height:1.2em;
+	overflow:hidden;
+}
+
+#accueil br+a, #tireBouchon br+a, #decapsuleur br+a, #catalogue br+a{
+	color:black;
+	background-color:DodgerBlue;
+	padding:1px;
+}
+#accueil:hover, #tireBouchon:hover, #decapsuleur:hover, #catalogue:hover{
+	height:5em;
+	overflow:visible;
+	margin-bottom:150px;
+}
+#menu input{
+	width:50%;
+	float:right;
+	margin-right:10px;
+}
+
+#menu img{
+	width:3%;
+	float:right;
+	padding-right:10px;
+}
+
+#promotion{
+	 border:2px solid red;
+	 margin:10px;
+	 width:30%;
+ }
+ 
+#promotion>h2{
+	 background-color:red;
+	 color:white;
+	 position:relative; top:-22px;
+	 font-variant:SMALL-CAPS;
+	 text-align:center;
+ }
+  
+#promotion>img{
+	width:20%;
+}
+
+footer{
+	background-color:black;
+	color:white;
+	width:100%;
+	margin-top:100px;
+	display:flex;
+	justify-content:center;
+}
+
+footer a, footer td{
+	padding: 50px 200px 30px 0px;
+}
+
+/* ARTICLE */
+
+#article{
+	position:relative;top:-50px;
+	margin-left:10px;
+}
+
+#article h1{
+	font-size:250%;
+	font-variant:small-caps;
+	font-weight:bolder;
+}
+
+#article h2{
+	color:Blue;
+}
+#article img{
+	width:20%;
+}
+
+#prix{
+	display:flex;
+	flex-direction:column;
+	float:right;
+	width:70%;
+}
+
+#prix a{
+	margin-left:10px;
+	margin-top:20px;
+	color:black;
+}
+.oldPrice{
+	text-decoration:line-through;
+}
+.newPrice{
+	color:red;
+	font-size:200%;
+}
+
+.ajouterPanier{
+	margin-top:15px;
+	background-color:Green;
+	color:white;
+	font-size:150%;
+	border-radius:20px;
+	padding:10px;
+}
+
+#commentaire div, #commentaire button{
+	margin:10px;
+}
