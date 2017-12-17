@@ -176,3 +176,49 @@ a:hover{
 #commentaire div, #commentaire button{
 	margin:10px;
 }
+
+/*PANIER*/
+
+#panier h1{
+	color:Blue;
+	font-size:200%;
+}
+table#progression{
+	text-align:center;
+	width:100%;
+	background:Gainsboro ;
+}
+.number{
+	padding:0px 5px 0px 5px;
+	background:DarkGrey;
+	border-radius:10px;
+}
+span#enCours{
+	background:LimeGreen ;
+	border:2px solid LimeGreen;
+}
+
+#panier img{
+	width:10%;
+}
+#articles{
+	display:flex;
+	flex-direction:center;
+	width:100%;
+}
+#articles td+td{
+	border-left:1px solid Grey;
+	padding:0px 25px 0px 25px;
+}
+#codePromo, #total {
+	float:right;
+	margin-right:5em;
+}
+#continuer{
+	margin-top:2em;
+	background-color:Green;
+	color:white;
+	font-size:150%;
+	border-radius:20px;
+	padding:10px;
+}
