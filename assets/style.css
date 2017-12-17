@@ -222,3 +222,22 @@ span#enCours{
 	border-radius:20px;
 	padding:10px;
 }
+
+/*VALIDATION COMMANDE*/
+
+#validation h1{
+	color:Blue;
+	font-size:200%;
+}
+#coo{
+	margin-left:1em;
+}
+#coo input{
+	display:flex;
+	justify-content:flex-start;
+	margin:1em;
+}
+
+#action a{
+	color:black;
+}
