@@ -121,7 +121,7 @@ a:hover{
 }
 
 #bas td{
-	padding:3em;
+	padding:1em;
 }
 
 /* ARTICLE */
@@ -240,4 +240,53 @@ span#enCours{
 
 #action a{
 	color:black;
+}
+
+/* CATALOGUE */
+
+.vignette img{
+	margin-left:50px;
+}
+.vignette{
+	width:25%;
+}
+.description{
+	width:45% ;
+}
+.prix{
+	width:10%;
+}
+.dispo, .redirection{
+	width:10%;
+}
+
+#diffarticles img{
+	width:40%;
+}
+
+
+select#tri{
+	float:right;
+	margin-right:50px;
+}
+
+#recherche h1{
+	font-size:30px;
+	text-align:center;
+}
+
+.gotodetail{
+	text-decoration:none;
+	font-weight:bold;
+	font-variant:small-caps;
+	color:orange;
+}
+
+#diffarticles td em{
+	font-style:normal;
+	border-radius:20px;
+	background-color:#83DB8E;
+	color:green;
+	font-weight:bold;
+	font-variant:small-caps;
 }
