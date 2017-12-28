@@ -1,3 +1,17 @@
+@media (max-width:800px){ 
+	.compte{
+		position:fixed; top:0;
+		width:10%;
+		display:inline;
+	}
+	.panier{
+		position:fixed; top:5em;
+		width:10%;
+		display:inline;
+	}
+}
+
+
 /*PAGE EN CONSTRUCTION*/
 
 #pageInexistante h1{
@@ -30,7 +44,7 @@ a:hover{
 }
 
 #header{
-	background:Navy;
+	background-image:url("images/fondTitre.jpg");
 	width:100%;
 	text-align:center;
 	color:white;
@@ -44,7 +58,7 @@ a:hover{
 }
 #header>h2{
 	width:80%;
-	display:inline-block;
+	display:inline-block
 }
 
 .logoHeader{
@@ -55,12 +69,12 @@ a:hover{
 .compte div+div, .panier div+div{
 	font-size:small;
 }
-.compte, .panier{
+.compte,.panier{
 	float:right;
 	width:10%;
 	display:inline;
 }
-
+	
 .price{
 	color:yellow;
 	font-weight:bold;
@@ -209,19 +223,18 @@ span#enCours{
 }
 #articles{
 	display:flex;
-	flex-direction:center;
-	width:100%;
+	text-align:center;
+	width:90%;
 }
 #articles td+td{
 	border-left:1px solid Grey;
 	padding:0px 25px 0px 25px;
 }
-#codePromo, #total {
-	float:right;
-	margin-right:5em;
-}
 #continuer{
-	margin-top:2em;
+	margin-top:5em;
+	margin-bottom:15em;
+}
+.continue{
 	background-color:Green;
 	color:white;
 	font-size:150%;
@@ -229,22 +242,31 @@ span#enCours{
 	padding:10px;
 }
 
+
 /*VALIDATION COMMANDE*/
 
 #validation h1{
 	color:Blue;
 	font-size:200%;
 }
-#coo{
-	margin-left:1em;
+
+#cooLiv, #cooBan, #choixLiv{
+	display:inline-flex;
+	flex-direction:column;
+	margin-left:15%;
 }
-#coo input{
+
+
+#cooLiv input, #cooBan input{
 	display:flex;
-	justify-content:flex-start;
 	margin:1em;
 }
 
-#action a{
+#confirmer{
+	margin-top:5em;
+}
+	
+#confirmer a{
 	color:black;
 }
 

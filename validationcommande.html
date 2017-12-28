@@ -13,7 +13,7 @@
 			<div class="panier">
 				<a href="panier.html" class="link" title="Aller au panier">
 					<img src="assets/images/panier.png" class="logoHeader" alt="image panier">
-					<div>Mon panier</div><div class="price">0.00€</div>
+					<div>Mon panier</div><div class="price">10.29€</div>
 				</a>
 			</div><div class="compte">
 				<a href="construction.html" class="link" title="Se connecter">
@@ -105,24 +105,38 @@
 				</tr>
 			</table>
 			<br>
-			<div><strong>Coordonnées de livraison :</strong></div>
-			<br>
-			<div id="coo">
-				<span><label>Nom : <input placeholder="Nom"></label></span>
-				<span><label>Prénom : <input placeholder="Prénom"></label></span>
-				<span><label>Adresse : <input placeholder="Adresse de livraison"></label></span>
-				<span><label>Complément d'adresse : <input placeholder="ex : bât, allée"></label></span>
-				<span><label>Ville : <input placeholder="Ville"></label></span>
-				<span><label>Code postal : <input placeholder="ex : 57000"></label></span>
-				<span><label>Téléphone : <input placeholder="Téléphone"></label></span>			
-			</div><div id="action">
-				<form action="validationCommande.html">
-					<button id="continuer">Continuer...</button>
-				</form>	
-				<br>
-				<a href="panier.html" class="link">Cliquez ici pour revenir au panier...</a>
+			<div id="cooLiv">
+				<h2>Coordonnées de livraison :</h2>
+				<label>Nom : <input></label>
+				<label>Prénom : <input></label>
+				<label>Adresse : <input></label>
+				<label>Complément d'adresse : <input placeholder="ex : bât, allée"></label>
+				<label>Ville : <input></label>				
+				<label>Code postal : <input placeholder="ex : 57000"></label>
+				<label>Téléphone : <input></label>
 			</div>
-		</section>		
+			<div id="cooBan">
+				<h2>Coordonnées bancaires :</h2>
+				<label>Numéro de la carte : <input></label>
+				<label>Titulaire de la carte : <input></label>
+				<label>Date d'expiration : <input placeholder="MM / YYYY"></label>
+				<label>Cryptogramme : <input></label>
+			</div>
+			<div id="choixLiv">
+				<h2>Mode de livraison :</h2>
+				<label>Livraison en point relais en point relais<input type="radio"></label>
+				<br>
+				<label>Livraison à domicile sous 24h (surcoût)<input type="radio"></label>
+				<br>
+				<label>Livraison à domicile sous 1 semaine<input type="radio"></label>
+			</div>	
+			<div id="confirmer">
+				<form action="construction.html">
+					<button class="continue">Confirmer...</button>
+				</form>	
+				<a href="panier.html" class="link">Cliquez ici pour revenir au panier...</a>
+			</div>	
+		</section>
 		<footer>
 			<table id="bas">
 				<tr>
