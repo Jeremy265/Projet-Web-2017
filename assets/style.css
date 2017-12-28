@@ -1,4 +1,40 @@
-/*PAGE EN CONSTRUCTION*/
+/*SLIDESHOW PROMOTION*/
+
+@keyframes slideShow {
+	0%, 15%,100% {
+		left: 0px; 
+	}
+	35%, 50% {
+		left: -500px; 
+	}
+	70%, 85% {
+		left: -1000px; 
+	}
+}
+#slideshow {
+	position: relative;
+	width:500px;
+	height: 400px;
+	margin:  20px auto;
+	overflow: hidden;
+}
+#sContent li {
+	display: inline;
+}
+#sContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1550px;
+	margin: 0;            
+	padding: 0;
+	animation-name: slideShow;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+/*PAGE EN CONSTRUCTION et CODEPROMO*/
 
 #pageInexistante h1{
 	font-size:500%;
@@ -35,7 +71,7 @@ a:hover{
 	display:inline-flex;
 	text-align:center;
 	color:white;
-	text-shadow: 0 0 4px black;
+	text-shadow: 0 0 10px black;
 }
 
 #header h1{
@@ -98,8 +134,9 @@ a:hover{
 
 #promotion{
 	 border:2px solid red;
-	 margin:10px;
-	 width:30%;
+	 margin:5em;
+	 width:500px;
+	 display:inline-block;
  }
  
 #promotion>h2{
@@ -110,9 +147,22 @@ a:hover{
 	 text-align:center;
  }
   
-#promotion>img{
-	width:20%;
+#pereNoel{
+	text-align:center;
+	margin:2em;
+	float:right;
 }
+#pereNoel>img{
+	width:60%;
+}
+#pereNoel h1{
+	font-size:300%;
+	color:red;
+}
+#pereNoel h2{
+	font-size:130%;
+}
+
 
 #bas{
 	background-color:black;	
@@ -302,4 +352,25 @@ select#tri{
 	font-weight:bold;
 	font-variant:small-caps;
 	padding:5px;
+}
+
+/*CONFIRMATION COMMANDE */
+
+#confirmeCommande{
+	margin:5em;
+	text-align:center;
+}
+#confirmeCommande h1{
+	color:red;
+	font-size:300%;
+}
+#confirmeCommande a{
+	color:black;
+}
+
+
+/* QUI SOMMES NOUS */
+
+#qsn h1{
+	color:blue;
 }
