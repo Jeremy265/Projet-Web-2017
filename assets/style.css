@@ -338,10 +338,10 @@ select#tri{
 }
 
 .gotodetail{
-	text-decoration:none;
-	font-weight:bold;
+	font-size:110%;
+	font-weight:bolder;
 	font-variant:small-caps;
-	color:orange;
+	color:red;
 }
 
 #diffarticles td em{
@@ -378,6 +378,9 @@ select#tri{
 	text-decoration:underline;
 }
 #qsn h1{
-	font-size:61pt;
+	font-size:55pt;
 	color:blue;
+}
+#qsn h2{
+	text-decoration:underline;
 }
