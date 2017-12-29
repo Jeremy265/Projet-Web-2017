@@ -370,7 +370,14 @@ select#tri{
 
 
 /* QUI SOMMES NOUS */
-
+#qsn{
+	margin:1em;
+	font-size:15pt;
+}
+#qsn em:hover{
+	text-decoration:underline;
+}
 #qsn h1{
+	font-size:61pt;
 	color:blue;
 }
